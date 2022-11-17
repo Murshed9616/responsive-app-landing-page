@@ -1,0 +1,155 @@
+/* banner section start here */
+.background-gradient {
+    background-image: linear-gradient(90deg, rgb(144, 66, 216), rgb(134, 59, 204));
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.banner div {
+    width: 50%;
+}
+
+.banner img {
+    width: 280px;
+}
+
+/* banner section end here */
+/* featuer section start here */
+.featuer-section {
+    margin-top: 15px;
+}
+
+.headline {
+    text-align: center;
+
+}
+
+.featuers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featuers div {
+    width: 40%;
+}
+
+.box {
+    margin: 20px auto;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.fa-solid {
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* featuer section end here */
+
+/* gallery section start here */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    border: 3px solid #a16916;
+    height: 200px;
+    width: 100%;
+}
+
+/* gallery section end here */
+/* contact section start here */
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.contacts div {
+    width: 50%;
+}
+
+.contacts img {
+    width: 100%;
+}
+
+.input-type {
+    width: 100%;
+    padding: 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #a16916;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* contact section end here */
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+
+    /* banner section end here */
+    .banner {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .banner div {
+        width: 100%;
+    }
+
+    /* banner section start here */
+
+    /* featuer section start here */
+    .featuers div {
+        width: 90%;
+    }
+
+    /* featuer section end here */
+
+    /* gallery section start here */
+    .gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width:991px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .contacts {
+        flex-direction: column;
+    }
+
+    .contacts div {
+        width: 100%;
+    }
+
+
+}

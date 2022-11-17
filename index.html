@@ -6,10 +6,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive App Landing Page</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <!-- coustom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5261a7646c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- header section start here -->
+    <header class="sticky-top">
+        <section class="background-gradient  ">
+            <nav class=" container navbar navbar-expand-lg shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/app-mobile-image.png" alt="" width="20">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Feature</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- header section end here -->
+    <main>
+        <!-- banner section start here -->
+        <section class="background-gradient">
+            <div class="container">
+                <div class="banner">
+                    <div class="">
+                        <h2 class="text-warning font-weight-bold">Let Your Coustomer</h2>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+                            odit?
+                            Consectetur iste
+                            vero et ad debitis mollitia eum sapiente tenetur.</p>
+                        <button type="button" class="btn btn-outline-warning">Download Now</button>
+                    </div>
+                    <div>
+                        <img class="img-fluid" src="images/app-mobile-image.png" alt="" width="">
+                    </div>
+                </div>
 
+            </div>
+
+        </section>
+        <!-- banner section end here -->
+        <!-- featuer section start here -->
+        <section class=" container featuer-section">
+            <h2 class="font-weight-bold headline">Featuers</h2>
+            <div class="featuers">
+                <div class="box">
+                    <i class=" bg-warning fa-solid fa-book"></i>
+                    <h3 class="text-warning">Creative Story</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus corrupti, tenetur
+                        dolore ipsam omnis?</p>
+                    <p class="text-warning">Read More</p>
+                </div>
+                <div class="box">
+                    <i class=" bg-warning fa-solid fa-video"></i>
+                    <h3 class="text-warning">4k Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus corrupti, tenetur
+                        dolore ipsam omnis?</p>
+                    <p class="text-warning">Read More</p>
+                </div>
+                <div class="box">
+                    <i class=" bg-warning fa-solid fa-star"></i>
+                    <h3 class="text-warning">Super Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus corrupti, tenetur
+                        dolore ipsam omnis?</p>
+                    <p class="text-warning">Read More</p>
+                </div>
+                <div class="box">
+                    <i class=" bg-warning fa-solid fa-lock"></i>
+                    <h3 class="text-warning">Higly Secured</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus corrupti, tenetur
+                        dolore ipsam omnis?</p>
+                    <p class="text-warning">Read More</p>
+                </div>
+            </div>
+        </section>
+        <!-- featuer section end here -->
+        <!-- gallery section start here -->
+        <section class="container">
+            <h2 class="font-weight-bold headline">Gallery</h2>
+            <div class="gallery">
+                <img src="images/godzilla.jpg" alt="">
+                <img src="images/images (2).jpg" alt="">
+                <img src="images/images (3).jpg" alt="">
+                <img src="images/images (4).jpg" alt="">
+                <img src="images/images (5).jpg" alt="">
+                <img src="images/images (6).jpg" alt="">
+            </div>
+        </section>
+        <!-- gallery section end here -->
+        <!-- contact section start here -->
+        <section class="container">
+            <h2 class="font-weight-bold headline">Contact</h2>
+            <div class="contacts">
+                <div>
+                    <img src="images/contact.png" alt="">
+                </div>
+                <div>
+                    <form>
+                        <input class=" input-type mb-3" type="text" id="" name="" placeholder="Your Name"> <br>
+                        <input class=" input-type mb-3" type="email" name="" id="" placeholder="Your Email"> <br>
+                        <input class=" input-type btn btn-outline-warning" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- contact section end here -->
+    </main>
+
+    <footer class="container ">
+        <div>
+            <p class="text-center"> Copyright &copy; All Right reserved By
+                <a href="">Abu Murshed</a>
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="bootstrap/bootstrap.min.js"></script>
 </body>
 
 </html>
